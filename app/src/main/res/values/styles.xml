@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black393a3f</item>
+        <item name="colorPrimaryDark">@color/black393a3f</item>
+        <item name="colorAccent">@color/black393a3f</item>
+    </style>
+
+    <style name="ppw_anim_bottom_style">
+        <item name="android:windowEnterAnimation">@anim/anim_enter_bottom</item>
+        <item name="android:windowExitAnimation">@anim/anim_exit_bottom</item>
+    </style>
+
+</resources>

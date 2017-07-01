@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/black393a3f">
+
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/titlebar_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="标题"
+        android:textSize="18sp"
+        android:textColor="@color/white" />
+
+    <!-- 返回 -->
+    <LinearLayout
+        android:id="@+id/titlebar_ll_left"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+
+    </LinearLayout>
+
+    <!-- 右侧文字 -->
+    <TextView
+        android:id="@+id/titlebar_text_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:textSize="14sp"
+        android:text="完成"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+</RelativeLayout>
